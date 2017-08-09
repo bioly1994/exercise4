@@ -1,0 +1,12 @@
+2191 [main] INFO  Main [] - persistent {1142} milliseconds.
+
+2576 [main] INFO  Main [] - non persistent {1533} milliseconds.
+
+3352 [main] INFO  Main [] - persistent {1665} milliseconds.
+
+4317 [main] INFO  Main [] - non persistent {2639} milliseconds.
+
+2522 [main] INFO  Main [] - persistent {1354} milliseconds.
+
+3518 [main] INFO  Main [] - non persistent {2359} milliseconds.
+
