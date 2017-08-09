@@ -85,7 +85,7 @@ public class SendTest {
     @DirtiesContext
     public void shouldSendMapMessageToTopic() throws InterruptedException, JMSException {
     	// given
-    	Map<String, String> map = new HashMap<>();
+    	Map<String, String> map = new HashMap<String, String>();
     	map.put("key1", "val1");
     	map.put("key2", "val2");
     	

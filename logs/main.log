@@ -187,3 +187,60 @@ Price= 10
 7479 [main] INFO  org.apache.activemq.store.kahadb.KahaDBStore [] - Stopped KahaDB
 7677 [main] INFO  org.apache.activemq.broker.BrokerService [] - Apache ActiveMQ 5.13.2 (localhost, ID:DESKTOP-ETRK0I7-60470-1498718022190-0:5) uptime 0.808 seconds
 7678 [main] INFO  org.apache.activemq.broker.BrokerService [] - Apache ActiveMQ 5.13.2 (localhost, ID:DESKTOP-ETRK0I7-60470-1498718022190-0:5) is shutdown
+3085 [main] INFO  org.apache.activemq.broker.BrokerService [] - Using Persistence Adapter: KahaDBPersistenceAdapter[C:\Users\Bioly1994\Documents\exercise4nb2\activemq-data\localhost\KahaDB]
+3123 [JMX connector] INFO  org.apache.activemq.broker.jmx.ManagementContext [] - JMX consoles can connect to service:jmx:rmi:///jndi/rmi://localhost:1099/jmxrmi
+4252 [main] INFO  org.apache.activemq.store.kahadb.MessageDatabase [] - KahaDB is version 6
+4293 [main] INFO  org.apache.activemq.store.kahadb.MessageDatabase [] - Recovering from the journal @1:228404
+4294 [main] INFO  org.apache.activemq.store.kahadb.MessageDatabase [] - Recovery replayed 1 operations from the journal in 0.025 seconds.
+4307 [main] INFO  org.apache.activemq.store.kahadb.plist.PListStoreImpl [] - PListStore:[C:\Users\Bioly1994\Documents\exercise4nb2\activemq-data\localhost\tmp_storage] started
+4472 [main] INFO  org.apache.activemq.broker.BrokerService [] - Apache ActiveMQ 5.13.2 (localhost, ID:Bioly-9475-1502301906739-0:1) is starting
+4577 [main] INFO  org.apache.activemq.transport.TransportServerThreadSupport [] - Listening for connections at: tcp://127.0.0.1:62616?deleteAllMessagesOnStartup=true
+4578 [main] INFO  org.apache.activemq.broker.TransportConnector [] - Connector tcp://localhost:62616?deleteAllMessagesOnStartup=true started
+4579 [main] INFO  org.apache.activemq.broker.BrokerService [] - Apache ActiveMQ 5.13.2 (localhost, ID:Bioly-9475-1502301906739-0:1) started
+4580 [main] INFO  org.apache.activemq.broker.BrokerService [] - For help or more information please see: http://activemq.apache.org
+6044 [main] INFO  org.apache.activemq.broker.BrokerService [] - Apache ActiveMQ 5.13.2 (localhost, ID:Bioly-9475-1502301906739-0:1) is shutting down
+6069 [main] INFO  org.apache.activemq.broker.TransportConnector [] - Connector tcp://localhost:62616?deleteAllMessagesOnStartup=true stopped
+6079 [main] INFO  org.apache.activemq.store.kahadb.plist.PListStoreImpl [] - PListStore:[C:\Users\Bioly1994\Documents\exercise4nb2\activemq-data\localhost\tmp_storage] stopped
+6079 [main] INFO  org.apache.activemq.store.kahadb.KahaDBStore [] - Stopping async queue tasks
+6079 [main] INFO  org.apache.activemq.store.kahadb.KahaDBStore [] - Stopping async topic tasks
+6080 [main] INFO  org.apache.activemq.store.kahadb.KahaDBStore [] - Stopped KahaDB
+6641 [main] INFO  org.apache.activemq.broker.BrokerService [] - Apache ActiveMQ 5.13.2 (localhost, ID:Bioly-9475-1502301906739-0:1) uptime 3.949 seconds
+6641 [main] INFO  org.apache.activemq.broker.BrokerService [] - Apache ActiveMQ 5.13.2 (localhost, ID:Bioly-9475-1502301906739-0:1) is shutdown
+6923 [main] INFO  org.apache.activemq.broker.BrokerService [] - Using Persistence Adapter: KahaDBPersistenceAdapter[C:\Users\Bioly1994\Documents\exercise4nb2\activemq-data\localhost\KahaDB]
+6930 [JMX connector] INFO  org.apache.activemq.broker.jmx.ManagementContext [] - JMX consoles can connect to service:jmx:rmi:///jndi/rmi://localhost:1099/jmxrmi
+7385 [main] INFO  org.apache.activemq.store.kahadb.MessageDatabase [] - KahaDB is version 6
+7397 [main] INFO  org.apache.activemq.store.kahadb.MessageDatabase [] - Recovering from the journal @1:235709
+7398 [main] INFO  org.apache.activemq.store.kahadb.MessageDatabase [] - Recovery replayed 1 operations from the journal in 0.009 seconds.
+7399 [main] INFO  org.apache.activemq.store.kahadb.plist.PListStoreImpl [] - PListStore:[C:\Users\Bioly1994\Documents\exercise4nb2\activemq-data\localhost\tmp_storage] started
+7403 [main] INFO  org.apache.activemq.broker.BrokerService [] - Apache ActiveMQ 5.13.2 (localhost, ID:Bioly-9475-1502301906739-0:2) is starting
+7424 [main] INFO  org.apache.activemq.transport.TransportServerThreadSupport [] - Listening for connections at: tcp://127.0.0.1:62616?deleteAllMessagesOnStartup=true
+7425 [main] INFO  org.apache.activemq.broker.TransportConnector [] - Connector tcp://localhost:62616?deleteAllMessagesOnStartup=true started
+7426 [main] INFO  org.apache.activemq.broker.BrokerService [] - Apache ActiveMQ 5.13.2 (localhost, ID:Bioly-9475-1502301906739-0:2) started
+7426 [main] INFO  org.apache.activemq.broker.BrokerService [] - For help or more information please see: http://activemq.apache.org
+8544 [main] INFO  org.apache.activemq.broker.BrokerService [] - Apache ActiveMQ 5.13.2 (localhost, ID:Bioly-9475-1502301906739-0:2) is shutting down
+8561 [main] INFO  org.apache.activemq.broker.TransportConnector [] - Connector tcp://localhost:62616?deleteAllMessagesOnStartup=true stopped
+8562 [main] INFO  org.apache.activemq.store.kahadb.plist.PListStoreImpl [] - PListStore:[C:\Users\Bioly1994\Documents\exercise4nb2\activemq-data\localhost\tmp_storage] stopped
+8563 [main] INFO  org.apache.activemq.store.kahadb.KahaDBStore [] - Stopping async queue tasks
+8563 [main] INFO  org.apache.activemq.store.kahadb.KahaDBStore [] - Stopping async topic tasks
+8563 [main] INFO  org.apache.activemq.store.kahadb.KahaDBStore [] - Stopped KahaDB
+9742 [main] INFO  org.apache.activemq.broker.BrokerService [] - Apache ActiveMQ 5.13.2 (localhost, ID:Bioly-9475-1502301906739-0:2) uptime 2.824 seconds
+9742 [main] INFO  org.apache.activemq.broker.BrokerService [] - Apache ActiveMQ 5.13.2 (localhost, ID:Bioly-9475-1502301906739-0:2) is shutdown
+9931 [main] INFO  org.apache.activemq.broker.BrokerService [] - Using Persistence Adapter: KahaDBPersistenceAdapter[C:\Users\Bioly1994\Documents\exercise4nb2\activemq-data\localhost\KahaDB]
+9938 [JMX connector] INFO  org.apache.activemq.broker.jmx.ManagementContext [] - JMX consoles can connect to service:jmx:rmi:///jndi/rmi://localhost:1099/jmxrmi
+10530 [main] INFO  org.apache.activemq.store.kahadb.MessageDatabase [] - KahaDB is version 6
+10544 [main] INFO  org.apache.activemq.store.kahadb.MessageDatabase [] - Recovering from the journal @1:242703
+10544 [main] INFO  org.apache.activemq.store.kahadb.MessageDatabase [] - Recovery replayed 1 operations from the journal in 0.01 seconds.
+10549 [main] INFO  org.apache.activemq.store.kahadb.plist.PListStoreImpl [] - PListStore:[C:\Users\Bioly1994\Documents\exercise4nb2\activemq-data\localhost\tmp_storage] started
+10551 [main] INFO  org.apache.activemq.broker.BrokerService [] - Apache ActiveMQ 5.13.2 (localhost, ID:Bioly-9475-1502301906739-0:3) is starting
+10572 [main] INFO  org.apache.activemq.transport.TransportServerThreadSupport [] - Listening for connections at: tcp://127.0.0.1:62616?deleteAllMessagesOnStartup=true
+10574 [main] INFO  org.apache.activemq.broker.TransportConnector [] - Connector tcp://localhost:62616?deleteAllMessagesOnStartup=true started
+10575 [main] INFO  org.apache.activemq.broker.BrokerService [] - Apache ActiveMQ 5.13.2 (localhost, ID:Bioly-9475-1502301906739-0:3) started
+10575 [main] INFO  org.apache.activemq.broker.BrokerService [] - For help or more information please see: http://activemq.apache.org
+11698 [main] INFO  org.apache.activemq.broker.BrokerService [] - Apache ActiveMQ 5.13.2 (localhost, ID:Bioly-9475-1502301906739-0:3) is shutting down
+11709 [main] INFO  org.apache.activemq.broker.TransportConnector [] - Connector tcp://localhost:62616?deleteAllMessagesOnStartup=true stopped
+11710 [main] INFO  org.apache.activemq.store.kahadb.plist.PListStoreImpl [] - PListStore:[C:\Users\Bioly1994\Documents\exercise4nb2\activemq-data\localhost\tmp_storage] stopped
+11710 [main] INFO  org.apache.activemq.store.kahadb.KahaDBStore [] - Stopping async queue tasks
+11711 [main] INFO  org.apache.activemq.store.kahadb.KahaDBStore [] - Stopping async topic tasks
+11711 [main] INFO  org.apache.activemq.store.kahadb.KahaDBStore [] - Stopped KahaDB
+12292 [main] INFO  org.apache.activemq.broker.BrokerService [] - Apache ActiveMQ 5.13.2 (localhost, ID:Bioly-9475-1502301906739-0:3) uptime 2.370 seconds
+12293 [main] INFO  org.apache.activemq.broker.BrokerService [] - Apache ActiveMQ 5.13.2 (localhost, ID:Bioly-9475-1502301906739-0:3) is shutdown
