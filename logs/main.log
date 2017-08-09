@@ -1,0 +1,189 @@
+4143 [main] INFO  org.apache.activemq.broker.BrokerService [] - Using Persistence Adapter: KahaDBPersistenceAdapter[C:\Users\Damian\Desktop\GFT_4\nowy\exercise4\activemq-data\localhost\KahaDB]
+4560 [JMX connector] INFO  org.apache.activemq.broker.jmx.ManagementContext [] - JMX consoles can connect to service:jmx:rmi:///jndi/rmi://localhost:1099/jmxrmi
+4836 [main] INFO  org.apache.activemq.store.kahadb.MessageDatabase [] - KahaDB is version 6
+4884 [main] INFO  org.apache.activemq.store.kahadb.MessageDatabase [] - Recovering from the journal @1:208506
+4885 [main] INFO  org.apache.activemq.store.kahadb.MessageDatabase [] - Recovery replayed 1 operations from the journal in 0.026 seconds.
+4893 [main] INFO  org.apache.activemq.store.kahadb.plist.PListStoreImpl [] - PListStore:[C:\Users\Damian\Desktop\GFT_4\nowy\exercise4\activemq-data\localhost\tmp_storage] started
+5088 [main] INFO  org.apache.activemq.broker.BrokerService [] - Apache ActiveMQ 5.13.2 (localhost, ID:DESKTOP-ETRK0I7-60454-1498718007686-0:1) is starting
+5200 [main] INFO  org.apache.activemq.transport.TransportServerThreadSupport [] - Listening for connections at: tcp://127.0.0.1:62616?deleteAllMessagesOnStartup=true
+5201 [main] INFO  org.apache.activemq.broker.TransportConnector [] - Connector tcp://localhost:62616?deleteAllMessagesOnStartup=true started
+5217 [main] INFO  org.apache.activemq.broker.BrokerService [] - Apache ActiveMQ 5.13.2 (localhost, ID:DESKTOP-ETRK0I7-60454-1498718007686-0:1) started
+5217 [main] INFO  org.apache.activemq.broker.BrokerService [] - For help or more information please see: http://activemq.apache.org
+5221 [main] WARN  org.apache.activemq.broker.BrokerService [] - Store limit is 102400 mb (current store usage is 0 mb). The data directory: C:\Users\Damian\Desktop\GFT_4\nowy\exercise4\activemq-data\localhost\KahaDB only has 35759 mb of usable space. - resetting to maximum available disk space: 35759 mb
+5224 [main] WARN  org.apache.activemq.broker.BrokerService [] - Temporary Store limit is 51200 mb (current store usage is 0 mb). The data directory: C:\Users\Damian\Desktop\GFT_4\nowy\exercise4\activemq-data\localhost only has 35758 mb of usable space. - resetting to maximum available disk space: 35758 mb
+6738 [main] INFO  org.apache.activemq.broker.BrokerService [] - Apache ActiveMQ 5.13.2 (localhost, ID:DESKTOP-ETRK0I7-60454-1498718007686-0:1) is shutting down
+6845 [main] INFO  org.apache.activemq.broker.TransportConnector [] - Connector tcp://localhost:62616?deleteAllMessagesOnStartup=true stopped
+6853 [main] INFO  org.apache.activemq.store.kahadb.plist.PListStoreImpl [] - PListStore:[C:\Users\Damian\Desktop\GFT_4\nowy\exercise4\activemq-data\localhost\tmp_storage] stopped
+6853 [main] INFO  org.apache.activemq.store.kahadb.KahaDBStore [] - Stopping async queue tasks
+6853 [main] INFO  org.apache.activemq.store.kahadb.KahaDBStore [] - Stopping async topic tasks
+6854 [main] INFO  org.apache.activemq.store.kahadb.KahaDBStore [] - Stopped KahaDB
+7092 [main] INFO  org.apache.activemq.broker.BrokerService [] - Apache ActiveMQ 5.13.2 (localhost, ID:DESKTOP-ETRK0I7-60454-1498718007686-0:1) uptime 3.430 seconds
+7092 [main] INFO  org.apache.activemq.broker.BrokerService [] - Apache ActiveMQ 5.13.2 (localhost, ID:DESKTOP-ETRK0I7-60454-1498718007686-0:1) is shutdown
+7316 [main] INFO  org.apache.activemq.broker.BrokerService [] - Using Persistence Adapter: KahaDBPersistenceAdapter[C:\Users\Damian\Desktop\GFT_4\nowy\exercise4\activemq-data\localhost\KahaDB]
+7320 [JMX connector] INFO  org.apache.activemq.broker.jmx.ManagementContext [] - JMX consoles can connect to service:jmx:rmi:///jndi/rmi://localhost:1099/jmxrmi
+7594 [main] INFO  org.apache.activemq.store.kahadb.MessageDatabase [] - KahaDB is version 6
+7604 [main] INFO  org.apache.activemq.store.kahadb.MessageDatabase [] - Recovering from the journal @1:215650
+7605 [main] INFO  org.apache.activemq.store.kahadb.MessageDatabase [] - Recovery replayed 1 operations from the journal in 0.008 seconds.
+7607 [main] INFO  org.apache.activemq.store.kahadb.plist.PListStoreImpl [] - PListStore:[C:\Users\Damian\Desktop\GFT_4\nowy\exercise4\activemq-data\localhost\tmp_storage] started
+7608 [main] INFO  org.apache.activemq.broker.BrokerService [] - Apache ActiveMQ 5.13.2 (localhost, ID:DESKTOP-ETRK0I7-60454-1498718007686-0:2) is starting
+7629 [main] INFO  org.apache.activemq.transport.TransportServerThreadSupport [] - Listening for connections at: tcp://127.0.0.1:62616?deleteAllMessagesOnStartup=true
+7629 [main] INFO  org.apache.activemq.broker.TransportConnector [] - Connector tcp://localhost:62616?deleteAllMessagesOnStartup=true started
+7629 [main] INFO  org.apache.activemq.broker.BrokerService [] - Apache ActiveMQ 5.13.2 (localhost, ID:DESKTOP-ETRK0I7-60454-1498718007686-0:2) started
+7630 [main] INFO  org.apache.activemq.broker.BrokerService [] - For help or more information please see: http://activemq.apache.org
+7635 [main] WARN  org.apache.activemq.broker.BrokerService [] - Store limit is 102400 mb (current store usage is 0 mb). The data directory: C:\Users\Damian\Desktop\GFT_4\nowy\exercise4\activemq-data\localhost\KahaDB only has 35759 mb of usable space. - resetting to maximum available disk space: 35759 mb
+7639 [main] WARN  org.apache.activemq.broker.BrokerService [] - Temporary Store limit is 51200 mb (current store usage is 0 mb). The data directory: C:\Users\Damian\Desktop\GFT_4\nowy\exercise4\activemq-data\localhost only has 35758 mb of usable space. - resetting to maximum available disk space: 35758 mb
+8832 [main] INFO  org.apache.activemq.broker.BrokerService [] - Apache ActiveMQ 5.13.2 (localhost, ID:DESKTOP-ETRK0I7-60454-1498718007686-0:2) is shutting down
+8844 [main] INFO  org.apache.activemq.broker.TransportConnector [] - Connector tcp://localhost:62616?deleteAllMessagesOnStartup=true stopped
+8846 [main] INFO  org.apache.activemq.store.kahadb.plist.PListStoreImpl [] - PListStore:[C:\Users\Damian\Desktop\GFT_4\nowy\exercise4\activemq-data\localhost\tmp_storage] stopped
+8846 [main] INFO  org.apache.activemq.store.kahadb.KahaDBStore [] - Stopping async queue tasks
+8846 [main] INFO  org.apache.activemq.store.kahadb.KahaDBStore [] - Stopping async topic tasks
+8847 [main] INFO  org.apache.activemq.store.kahadb.KahaDBStore [] - Stopped KahaDB
+9103 [main] INFO  org.apache.activemq.broker.BrokerService [] - Apache ActiveMQ 5.13.2 (localhost, ID:DESKTOP-ETRK0I7-60454-1498718007686-0:2) uptime 1.791 seconds
+9103 [main] INFO  org.apache.activemq.broker.BrokerService [] - Apache ActiveMQ 5.13.2 (localhost, ID:DESKTOP-ETRK0I7-60454-1498718007686-0:2) is shutdown
+9292 [main] INFO  org.apache.activemq.broker.BrokerService [] - Using Persistence Adapter: KahaDBPersistenceAdapter[C:\Users\Damian\Desktop\GFT_4\nowy\exercise4\activemq-data\localhost\KahaDB]
+9301 [JMX connector] INFO  org.apache.activemq.broker.jmx.ManagementContext [] - JMX consoles can connect to service:jmx:rmi:///jndi/rmi://localhost:1099/jmxrmi
+9581 [main] INFO  org.apache.activemq.store.kahadb.MessageDatabase [] - KahaDB is version 6
+9586 [main] INFO  org.apache.activemq.store.kahadb.MessageDatabase [] - Recovering from the journal @1:222494
+9586 [main] INFO  org.apache.activemq.store.kahadb.MessageDatabase [] - Recovery replayed 1 operations from the journal in 0.004 seconds.
+9587 [main] INFO  org.apache.activemq.store.kahadb.plist.PListStoreImpl [] - PListStore:[C:\Users\Damian\Desktop\GFT_4\nowy\exercise4\activemq-data\localhost\tmp_storage] started
+9588 [main] INFO  org.apache.activemq.broker.BrokerService [] - Apache ActiveMQ 5.13.2 (localhost, ID:DESKTOP-ETRK0I7-60454-1498718007686-0:3) is starting
+9597 [main] INFO  org.apache.activemq.transport.TransportServerThreadSupport [] - Listening for connections at: tcp://127.0.0.1:62616?deleteAllMessagesOnStartup=true
+9597 [main] INFO  org.apache.activemq.broker.TransportConnector [] - Connector tcp://localhost:62616?deleteAllMessagesOnStartup=true started
+9598 [main] INFO  org.apache.activemq.broker.BrokerService [] - Apache ActiveMQ 5.13.2 (localhost, ID:DESKTOP-ETRK0I7-60454-1498718007686-0:3) started
+9598 [main] INFO  org.apache.activemq.broker.BrokerService [] - For help or more information please see: http://activemq.apache.org
+9600 [main] WARN  org.apache.activemq.broker.BrokerService [] - Store limit is 102400 mb (current store usage is 0 mb). The data directory: C:\Users\Damian\Desktop\GFT_4\nowy\exercise4\activemq-data\localhost\KahaDB only has 35759 mb of usable space. - resetting to maximum available disk space: 35759 mb
+9603 [main] WARN  org.apache.activemq.broker.BrokerService [] - Temporary Store limit is 51200 mb (current store usage is 0 mb). The data directory: C:\Users\Damian\Desktop\GFT_4\nowy\exercise4\activemq-data\localhost only has 35758 mb of usable space. - resetting to maximum available disk space: 35758 mb
+10678 [main] INFO  org.apache.activemq.broker.BrokerService [] - Apache ActiveMQ 5.13.2 (localhost, ID:DESKTOP-ETRK0I7-60454-1498718007686-0:3) is shutting down
+10691 [main] INFO  org.apache.activemq.broker.TransportConnector [] - Connector tcp://localhost:62616?deleteAllMessagesOnStartup=true stopped
+10692 [main] INFO  org.apache.activemq.store.kahadb.plist.PListStoreImpl [] - PListStore:[C:\Users\Damian\Desktop\GFT_4\nowy\exercise4\activemq-data\localhost\tmp_storage] stopped
+10696 [main] INFO  org.apache.activemq.store.kahadb.KahaDBStore [] - Stopping async queue tasks
+10696 [main] INFO  org.apache.activemq.store.kahadb.KahaDBStore [] - Stopping async topic tasks
+10696 [main] INFO  org.apache.activemq.store.kahadb.KahaDBStore [] - Stopped KahaDB
+11085 [main] INFO  org.apache.activemq.broker.BrokerService [] - Apache ActiveMQ 5.13.2 (localhost, ID:DESKTOP-ETRK0I7-60454-1498718007686-0:3) uptime 1.801 seconds
+11086 [main] INFO  org.apache.activemq.broker.BrokerService [] - Apache ActiveMQ 5.13.2 (localhost, ID:DESKTOP-ETRK0I7-60454-1498718007686-0:3) is shutdown
+2121 [main] INFO  org.apache.activemq.broker.BrokerService [] - Using Persistence Adapter: KahaDBPersistenceAdapter[C:\Users\Damian\Desktop\GFT_4\nowy\exercise4\activemq-data\localhost\KahaDB]
+2157 [JMX connector] INFO  org.apache.activemq.broker.jmx.ManagementContext [] - JMX consoles can connect to service:jmx:rmi:///jndi/rmi://localhost:1099/jmxrmi
+2580 [main] INFO  org.apache.activemq.store.kahadb.MessageDatabase [] - KahaDB is version 6
+2616 [main] INFO  org.apache.activemq.store.kahadb.MessageDatabase [] - Recovering from the journal @1:228613
+2617 [main] INFO  org.apache.activemq.store.kahadb.MessageDatabase [] - Recovery replayed 1 operations from the journal in 0.027 seconds.
+2624 [main] INFO  org.apache.activemq.store.kahadb.plist.PListStoreImpl [] - PListStore:[C:\Users\Damian\Desktop\GFT_4\nowy\exercise4\activemq-data\localhost\tmp_storage] started
+2780 [main] INFO  org.apache.activemq.broker.BrokerService [] - Apache ActiveMQ 5.13.2 (localhost, ID:DESKTOP-ETRK0I7-60470-1498718022190-0:1) is starting
+2892 [main] INFO  org.apache.activemq.transport.TransportServerThreadSupport [] - Listening for connections at: tcp://127.0.0.1:62616?deleteAllMessagesOnStartup=true
+2893 [main] INFO  org.apache.activemq.broker.TransportConnector [] - Connector tcp://localhost:62616?deleteAllMessagesOnStartup=true started
+2894 [main] INFO  org.apache.activemq.broker.BrokerService [] - Apache ActiveMQ 5.13.2 (localhost, ID:DESKTOP-ETRK0I7-60470-1498718022190-0:1) started
+2894 [main] INFO  org.apache.activemq.broker.BrokerService [] - For help or more information please see: http://activemq.apache.org
+2897 [main] WARN  org.apache.activemq.broker.BrokerService [] - Store limit is 102400 mb (current store usage is 0 mb). The data directory: C:\Users\Damian\Desktop\GFT_4\nowy\exercise4\activemq-data\localhost\KahaDB only has 35759 mb of usable space. - resetting to maximum available disk space: 35759 mb
+2901 [main] WARN  org.apache.activemq.broker.BrokerService [] - Temporary Store limit is 51200 mb (current store usage is 0 mb). The data directory: C:\Users\Damian\Desktop\GFT_4\nowy\exercise4\activemq-data\localhost only has 35758 mb of usable space. - resetting to maximum available disk space: 35758 mb
+3052 [main] INFO  wdsr.exercise4.receiver.ReceiveTest [] - Setting JMS receive timeout to 100ms
+3415 [main] INFO  wdsr.exercise4.receiver.ReceiveTest [] - alertText=
+Timestamp=1498718022961
+Stock=GOOG
+Volume=500000
+3498 [main] INFO  org.apache.activemq.broker.BrokerService [] - Apache ActiveMQ 5.13.2 (localhost, ID:DESKTOP-ETRK0I7-60470-1498718022190-0:1) is shutting down
+3499 [main] INFO  org.apache.activemq.broker.TransportConnector [] - Connector tcp://localhost:62616?deleteAllMessagesOnStartup=true stopped
+3504 [main] INFO  org.apache.activemq.store.kahadb.plist.PListStoreImpl [] - PListStore:[C:\Users\Damian\Desktop\GFT_4\nowy\exercise4\activemq-data\localhost\tmp_storage] stopped
+3504 [main] INFO  org.apache.activemq.store.kahadb.KahaDBStore [] - Stopping async queue tasks
+3504 [main] INFO  org.apache.activemq.store.kahadb.KahaDBStore [] - Stopping async topic tasks
+3504 [main] INFO  org.apache.activemq.store.kahadb.KahaDBStore [] - Stopped KahaDB
+3714 [main] INFO  org.apache.activemq.broker.BrokerService [] - Apache ActiveMQ 5.13.2 (localhost, ID:DESKTOP-ETRK0I7-60470-1498718022190-0:1) uptime 1.888 seconds
+3714 [main] INFO  org.apache.activemq.broker.BrokerService [] - Apache ActiveMQ 5.13.2 (localhost, ID:DESKTOP-ETRK0I7-60470-1498718022190-0:1) is shutdown
+3945 [JMX connector] INFO  org.apache.activemq.broker.jmx.ManagementContext [] - JMX consoles can connect to service:jmx:rmi:///jndi/rmi://localhost:1099/jmxrmi
+3946 [main] INFO  org.apache.activemq.broker.BrokerService [] - Using Persistence Adapter: KahaDBPersistenceAdapter[C:\Users\Damian\Desktop\GFT_4\nowy\exercise4\activemq-data\localhost\KahaDB]
+4300 [main] INFO  org.apache.activemq.store.kahadb.MessageDatabase [] - KahaDB is version 6
+4305 [main] INFO  org.apache.activemq.store.kahadb.MessageDatabase [] - Recovering from the journal @1:235635
+4305 [main] INFO  org.apache.activemq.store.kahadb.MessageDatabase [] - Recovery replayed 1 operations from the journal in 0.004 seconds.
+4306 [main] INFO  org.apache.activemq.store.kahadb.plist.PListStoreImpl [] - PListStore:[C:\Users\Damian\Desktop\GFT_4\nowy\exercise4\activemq-data\localhost\tmp_storage] started
+4307 [main] INFO  org.apache.activemq.broker.BrokerService [] - Apache ActiveMQ 5.13.2 (localhost, ID:DESKTOP-ETRK0I7-60470-1498718022190-0:2) is starting
+4322 [main] INFO  org.apache.activemq.transport.TransportServerThreadSupport [] - Listening for connections at: tcp://127.0.0.1:62616?deleteAllMessagesOnStartup=true
+4322 [main] INFO  org.apache.activemq.broker.TransportConnector [] - Connector tcp://localhost:62616?deleteAllMessagesOnStartup=true started
+4323 [main] INFO  org.apache.activemq.broker.BrokerService [] - Apache ActiveMQ 5.13.2 (localhost, ID:DESKTOP-ETRK0I7-60470-1498718022190-0:2) started
+4323 [main] INFO  org.apache.activemq.broker.BrokerService [] - For help or more information please see: http://activemq.apache.org
+4326 [main] WARN  org.apache.activemq.broker.BrokerService [] - Store limit is 102400 mb (current store usage is 0 mb). The data directory: C:\Users\Damian\Desktop\GFT_4\nowy\exercise4\activemq-data\localhost\KahaDB only has 35759 mb of usable space. - resetting to maximum available disk space: 35759 mb
+4330 [main] WARN  org.apache.activemq.broker.BrokerService [] - Temporary Store limit is 51200 mb (current store usage is 0 mb). The data directory: C:\Users\Damian\Desktop\GFT_4\nowy\exercise4\activemq-data\localhost only has 35758 mb of usable space. - resetting to maximum available disk space: 35758 mb
+4393 [main] INFO  wdsr.exercise4.receiver.ReceiveTest [] - Setting JMS receive timeout to 100ms
+4719 [main] INFO  org.apache.activemq.broker.BrokerService [] - Apache ActiveMQ 5.13.2 (localhost, ID:DESKTOP-ETRK0I7-60470-1498718022190-0:2) is shutting down
+4719 [main] INFO  org.apache.activemq.broker.TransportConnector [] - Connector tcp://localhost:62616?deleteAllMessagesOnStartup=true stopped
+4723 [main] INFO  org.apache.activemq.store.kahadb.plist.PListStoreImpl [] - PListStore:[C:\Users\Damian\Desktop\GFT_4\nowy\exercise4\activemq-data\localhost\tmp_storage] stopped
+4723 [main] INFO  org.apache.activemq.store.kahadb.KahaDBStore [] - Stopping async queue tasks
+4723 [main] INFO  org.apache.activemq.store.kahadb.KahaDBStore [] - Stopping async topic tasks
+4724 [main] INFO  org.apache.activemq.store.kahadb.KahaDBStore [] - Stopped KahaDB
+4932 [main] INFO  org.apache.activemq.broker.BrokerService [] - Apache ActiveMQ 5.13.2 (localhost, ID:DESKTOP-ETRK0I7-60470-1498718022190-0:2) uptime 0.996 seconds
+4933 [main] INFO  org.apache.activemq.broker.BrokerService [] - Apache ActiveMQ 5.13.2 (localhost, ID:DESKTOP-ETRK0I7-60470-1498718022190-0:2) is shutdown
+5069 [main] INFO  org.apache.activemq.broker.BrokerService [] - Using Persistence Adapter: KahaDBPersistenceAdapter[C:\Users\Damian\Desktop\GFT_4\nowy\exercise4\activemq-data\localhost\KahaDB]
+5076 [JMX connector] INFO  org.apache.activemq.broker.jmx.ManagementContext [] - JMX consoles can connect to service:jmx:rmi:///jndi/rmi://localhost:1099/jmxrmi
+5375 [main] INFO  org.apache.activemq.store.kahadb.MessageDatabase [] - KahaDB is version 6
+5386 [main] INFO  org.apache.activemq.store.kahadb.MessageDatabase [] - Recovering from the journal @1:243170
+5386 [main] INFO  org.apache.activemq.store.kahadb.MessageDatabase [] - Recovery replayed 1 operations from the journal in 0.008 seconds.
+5390 [main] INFO  org.apache.activemq.store.kahadb.plist.PListStoreImpl [] - PListStore:[C:\Users\Damian\Desktop\GFT_4\nowy\exercise4\activemq-data\localhost\tmp_storage] started
+5392 [main] INFO  org.apache.activemq.broker.BrokerService [] - Apache ActiveMQ 5.13.2 (localhost, ID:DESKTOP-ETRK0I7-60470-1498718022190-0:3) is starting
+5405 [main] INFO  org.apache.activemq.transport.TransportServerThreadSupport [] - Listening for connections at: tcp://127.0.0.1:62616?deleteAllMessagesOnStartup=true
+5405 [main] INFO  org.apache.activemq.broker.TransportConnector [] - Connector tcp://localhost:62616?deleteAllMessagesOnStartup=true started
+5406 [main] INFO  org.apache.activemq.broker.BrokerService [] - Apache ActiveMQ 5.13.2 (localhost, ID:DESKTOP-ETRK0I7-60470-1498718022190-0:3) started
+5406 [main] INFO  org.apache.activemq.broker.BrokerService [] - For help or more information please see: http://activemq.apache.org
+5409 [main] WARN  org.apache.activemq.broker.BrokerService [] - Store limit is 102400 mb (current store usage is 0 mb). The data directory: C:\Users\Damian\Desktop\GFT_4\nowy\exercise4\activemq-data\localhost\KahaDB only has 35759 mb of usable space. - resetting to maximum available disk space: 35759 mb
+5412 [main] WARN  org.apache.activemq.broker.BrokerService [] - Temporary Store limit is 51200 mb (current store usage is 0 mb). The data directory: C:\Users\Damian\Desktop\GFT_4\nowy\exercise4\activemq-data\localhost only has 35758 mb of usable space. - resetting to maximum available disk space: 35758 mb
+5446 [main] INFO  wdsr.exercise4.receiver.ReceiveTest [] - Setting JMS receive timeout to 100ms
+5661 [main] INFO  org.apache.activemq.broker.BrokerService [] - Apache ActiveMQ 5.13.2 (localhost, ID:DESKTOP-ETRK0I7-60470-1498718022190-0:3) is shutting down
+5662 [main] INFO  org.apache.activemq.broker.TransportConnector [] - Connector tcp://localhost:62616?deleteAllMessagesOnStartup=true stopped
+5663 [main] INFO  org.apache.activemq.store.kahadb.plist.PListStoreImpl [] - PListStore:[C:\Users\Damian\Desktop\GFT_4\nowy\exercise4\activemq-data\localhost\tmp_storage] stopped
+5663 [main] INFO  org.apache.activemq.store.kahadb.KahaDBStore [] - Stopping async queue tasks
+5664 [main] INFO  org.apache.activemq.store.kahadb.KahaDBStore [] - Stopping async topic tasks
+5664 [main] INFO  org.apache.activemq.store.kahadb.KahaDBStore [] - Stopped KahaDB
+5881 [main] INFO  org.apache.activemq.broker.BrokerService [] - Apache ActiveMQ 5.13.2 (localhost, ID:DESKTOP-ETRK0I7-60470-1498718022190-0:3) uptime 0.816 seconds
+5881 [main] INFO  org.apache.activemq.broker.BrokerService [] - Apache ActiveMQ 5.13.2 (localhost, ID:DESKTOP-ETRK0I7-60470-1498718022190-0:3) is shutdown
+5979 [main] INFO  org.apache.activemq.broker.BrokerService [] - Using Persistence Adapter: KahaDBPersistenceAdapter[C:\Users\Damian\Desktop\GFT_4\nowy\exercise4\activemq-data\localhost\KahaDB]
+5987 [JMX connector] INFO  org.apache.activemq.broker.jmx.ManagementContext [] - JMX consoles can connect to service:jmx:rmi:///jndi/rmi://localhost:1099/jmxrmi
+6267 [main] INFO  org.apache.activemq.store.kahadb.MessageDatabase [] - KahaDB is version 6
+6276 [main] INFO  org.apache.activemq.store.kahadb.MessageDatabase [] - Recovering from the journal @1:250547
+6277 [main] INFO  org.apache.activemq.store.kahadb.MessageDatabase [] - Recovery replayed 1 operations from the journal in 0.008 seconds.
+6278 [main] INFO  org.apache.activemq.store.kahadb.plist.PListStoreImpl [] - PListStore:[C:\Users\Damian\Desktop\GFT_4\nowy\exercise4\activemq-data\localhost\tmp_storage] started
+6283 [main] INFO  org.apache.activemq.broker.BrokerService [] - Apache ActiveMQ 5.13.2 (localhost, ID:DESKTOP-ETRK0I7-60470-1498718022190-0:4) is starting
+6295 [main] INFO  org.apache.activemq.transport.TransportServerThreadSupport [] - Listening for connections at: tcp://127.0.0.1:62616?deleteAllMessagesOnStartup=true
+6295 [main] INFO  org.apache.activemq.broker.TransportConnector [] - Connector tcp://localhost:62616?deleteAllMessagesOnStartup=true started
+6296 [main] INFO  org.apache.activemq.broker.BrokerService [] - Apache ActiveMQ 5.13.2 (localhost, ID:DESKTOP-ETRK0I7-60470-1498718022190-0:4) started
+6296 [main] INFO  org.apache.activemq.broker.BrokerService [] - For help or more information please see: http://activemq.apache.org
+6302 [main] WARN  org.apache.activemq.broker.BrokerService [] - Store limit is 102400 mb (current store usage is 0 mb). The data directory: C:\Users\Damian\Desktop\GFT_4\nowy\exercise4\activemq-data\localhost\KahaDB only has 35759 mb of usable space. - resetting to maximum available disk space: 35759 mb
+6305 [main] WARN  org.apache.activemq.broker.BrokerService [] - Temporary Store limit is 51200 mb (current store usage is 0 mb). The data directory: C:\Users\Damian\Desktop\GFT_4\nowy\exercise4\activemq-data\localhost only has 35758 mb of usable space. - resetting to maximum available disk space: 35758 mb
+6346 [main] INFO  wdsr.exercise4.receiver.ReceiveTest [] - Setting JMS receive timeout to 100ms
+6471 [main] INFO  wdsr.exercise4.receiver.ReceiveTest [] - alertText1=
+Timestamp=1498718026019
+Stock=GOOG
+Volume=500000
+6471 [main] INFO  wdsr.exercise4.receiver.ReceiveTest [] - alertText2=
+Timestamp=1498718026019
+Stock=MSFT
+Volume=500000
+6586 [main] INFO  org.apache.activemq.broker.BrokerService [] - Apache ActiveMQ 5.13.2 (localhost, ID:DESKTOP-ETRK0I7-60470-1498718022190-0:4) is shutting down
+6587 [main] INFO  org.apache.activemq.broker.TransportConnector [] - Connector tcp://localhost:62616?deleteAllMessagesOnStartup=true stopped
+6589 [main] INFO  org.apache.activemq.store.kahadb.plist.PListStoreImpl [] - PListStore:[C:\Users\Damian\Desktop\GFT_4\nowy\exercise4\activemq-data\localhost\tmp_storage] stopped
+6589 [main] INFO  org.apache.activemq.store.kahadb.KahaDBStore [] - Stopping async queue tasks
+6589 [main] INFO  org.apache.activemq.store.kahadb.KahaDBStore [] - Stopping async topic tasks
+6590 [main] INFO  org.apache.activemq.store.kahadb.KahaDBStore [] - Stopped KahaDB
+6773 [main] INFO  org.apache.activemq.broker.BrokerService [] - Apache ActiveMQ 5.13.2 (localhost, ID:DESKTOP-ETRK0I7-60470-1498718022190-0:4) uptime 0.799 seconds
+6773 [main] INFO  org.apache.activemq.broker.BrokerService [] - Apache ActiveMQ 5.13.2 (localhost, ID:DESKTOP-ETRK0I7-60470-1498718022190-0:4) is shutdown
+6875 [main] INFO  org.apache.activemq.broker.BrokerService [] - Using Persistence Adapter: KahaDBPersistenceAdapter[C:\Users\Damian\Desktop\GFT_4\nowy\exercise4\activemq-data\localhost\KahaDB]
+6877 [JMX connector] INFO  org.apache.activemq.broker.jmx.ManagementContext [] - JMX consoles can connect to service:jmx:rmi:///jndi/rmi://localhost:1099/jmxrmi
+7175 [main] INFO  org.apache.activemq.store.kahadb.MessageDatabase [] - KahaDB is version 6
+7177 [main] INFO  org.apache.activemq.store.kahadb.MessageDatabase [] - Recovering from the journal @1:258894
+7178 [main] INFO  org.apache.activemq.store.kahadb.MessageDatabase [] - Recovery replayed 1 operations from the journal in 0.002 seconds.
+7187 [main] INFO  org.apache.activemq.store.kahadb.plist.PListStoreImpl [] - PListStore:[C:\Users\Damian\Desktop\GFT_4\nowy\exercise4\activemq-data\localhost\tmp_storage] started
+7188 [main] INFO  org.apache.activemq.broker.BrokerService [] - Apache ActiveMQ 5.13.2 (localhost, ID:DESKTOP-ETRK0I7-60470-1498718022190-0:5) is starting
+7200 [main] INFO  org.apache.activemq.transport.TransportServerThreadSupport [] - Listening for connections at: tcp://127.0.0.1:62616?deleteAllMessagesOnStartup=true
+7200 [main] INFO  org.apache.activemq.broker.TransportConnector [] - Connector tcp://localhost:62616?deleteAllMessagesOnStartup=true started
+7200 [main] INFO  org.apache.activemq.broker.BrokerService [] - Apache ActiveMQ 5.13.2 (localhost, ID:DESKTOP-ETRK0I7-60470-1498718022190-0:5) started
+7200 [main] INFO  org.apache.activemq.broker.BrokerService [] - For help or more information please see: http://activemq.apache.org
+7204 [main] WARN  org.apache.activemq.broker.BrokerService [] - Store limit is 102400 mb (current store usage is 0 mb). The data directory: C:\Users\Damian\Desktop\GFT_4\nowy\exercise4\activemq-data\localhost\KahaDB only has 35759 mb of usable space. - resetting to maximum available disk space: 35759 mb
+7207 [main] WARN  org.apache.activemq.broker.BrokerService [] - Temporary Store limit is 51200 mb (current store usage is 0 mb). The data directory: C:\Users\Damian\Desktop\GFT_4\nowy\exercise4\activemq-data\localhost only has 35758 mb of usable space. - resetting to maximum available disk space: 35758 mb
+7235 [main] INFO  wdsr.exercise4.receiver.ReceiveTest [] - Setting JMS receive timeout to 100ms
+7421 [main] INFO  wdsr.exercise4.receiver.ReceiveTest [] - AlertText=
+Timestamp=1498718026969
+Stock=GOOG
+Price= 10
+7476 [main] INFO  org.apache.activemq.broker.BrokerService [] - Apache ActiveMQ 5.13.2 (localhost, ID:DESKTOP-ETRK0I7-60470-1498718022190-0:5) is shutting down
+7477 [main] INFO  org.apache.activemq.broker.TransportConnector [] - Connector tcp://localhost:62616?deleteAllMessagesOnStartup=true stopped
+7478 [main] INFO  org.apache.activemq.store.kahadb.plist.PListStoreImpl [] - PListStore:[C:\Users\Damian\Desktop\GFT_4\nowy\exercise4\activemq-data\localhost\tmp_storage] stopped
+7479 [main] INFO  org.apache.activemq.store.kahadb.KahaDBStore [] - Stopping async queue tasks
+7479 [main] INFO  org.apache.activemq.store.kahadb.KahaDBStore [] - Stopping async topic tasks
+7479 [main] INFO  org.apache.activemq.store.kahadb.KahaDBStore [] - Stopped KahaDB
+7677 [main] INFO  org.apache.activemq.broker.BrokerService [] - Apache ActiveMQ 5.13.2 (localhost, ID:DESKTOP-ETRK0I7-60470-1498718022190-0:5) uptime 0.808 seconds
+7678 [main] INFO  org.apache.activemq.broker.BrokerService [] - Apache ActiveMQ 5.13.2 (localhost, ID:DESKTOP-ETRK0I7-60470-1498718022190-0:5) is shutdown

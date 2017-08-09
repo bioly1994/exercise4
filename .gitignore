@@ -1,20 +1,49 @@
-### Intellij ###
-# Covers JetBrains IDEs: IntelliJ, RubyMine, PhpStorm, AppCode, PyCharm
+# Windows image file caches
+Thumbs.db
+ehthumbs.db
 
-*.iml
+# Folder config file
+Desktop.ini
 
-## Directory-based project format:
-.idea/
+# Recycle Bin used on file shares
+$RECYCLE.BIN/
 
-### Gradle ###
-.gradle/
-build/
+# Windows Installer files
+*.cab
+*.msi
+*.msm
+*.msp
 
-### Eclipse ###
-.project
-.classpath
-.settings/
-bin/
+# Windows shortcuts
+*.lnk
 
-### Runtime stuff ###
-logs/
+# =========================
+# Operating System Files
+# =========================
+
+# OSX
+# =========================
+
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Thumbnails
+._*
+
+# Files that might appear in the root of a volume
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+
+# Directories potentially created on remote AFP share
+.AppleDB
+.AppleDesktop
+Network Trash Folder
+Temporary Items
+.apdisk
+/.gradle/
+/build/
