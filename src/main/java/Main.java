@@ -27,7 +27,7 @@ public class Main {
 			connection = connectionFactory.createConnection();
 			connection.start();
 			session = connection.createSession(false,Session.AUTO_ACKNOWLEDGE);
-			destination = session.createQueue("BIEDRO.QUEUE");
+			destination = session.createQueue("BIOLY.QUEUE");
 			producer = session.createProducer(destination);
 			
 			TextMessage message = session.createTextMessage();
