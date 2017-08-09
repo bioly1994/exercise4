@@ -24,7 +24,7 @@ public class Main {
 			connection = new ActiveMQConnectionFactory("tcp://localhost:61616").createConnection();
 			connection.start();
 			session = connection.createSession(false, Session.AUTO_ACKNOWLEDGE);
-			destination = session.createTopic("BIEDRO94.TOPIC");
+			destination = session.createTopic("BIOLY.TOPIC");
 			messageProducer = session.createProducer(destination);
 			TextMessage message = session.createTextMessage();
 			
