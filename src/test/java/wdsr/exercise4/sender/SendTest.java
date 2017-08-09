@@ -34,7 +34,7 @@ public class SendTest {
 	private JmsSender service;
 	
 	@Before
-	public void setUp() {
+	public void setUp() throws JMSException {
 		listener.reset();
 		service = new JmsSender(QUEUE_NAME, TOPIC_NAME);
 	}
@@ -67,7 +67,7 @@ public class SendTest {
     
     @Test
     @DirtiesContext
-    public void shouldSendTextMessageToQueue() throws InterruptedException {
+    public void shouldSendTextMessageToQueue() throws InterruptedException, JMSException {
     	// given
     	final String text = "testText";
     	
@@ -83,7 +83,7 @@ public class SendTest {
     
     @Test
     @DirtiesContext
-    public void shouldSendMapMessageToTopic() throws InterruptedException {
+    public void shouldSendMapMessageToTopic() throws InterruptedException, JMSException {
     	// given
     	Map<String, String> map = new HashMap<>();
     	map.put("key1", "val1");

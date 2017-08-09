@@ -1,6 +1,9 @@
 package wdsr.exercise4;
 
 import java.io.Serializable;
+import java.math.BigDecimal;
+import java.util.HashMap;
+import java.util.Map;
 
 public class VolumeAlert implements Serializable {
 	private static final long serialVersionUID = -814547112765727554L;
@@ -13,6 +16,21 @@ public class VolumeAlert implements Serializable {
 		this.timestamp = timestamp;
 		this.stock = stock;
 		this.floatingVolume = floatingVolume;
+	}
+	
+	public VolumeAlert(String text){
+		Map<String,String> values = new HashMap<String,String>();
+		
+		String[] pairs = text.split("\n");
+		for(int i=0;i<pairs.length;i++){
+			String onePair = pairs[i];
+			String[] keyValue = pairs[i].split("=");
+			values.put(keyValue[0],keyValue[1]);
+		}
+		
+		this.timestamp = Long.parseLong(values.get("Timestamp").trim());
+		this.stock = values.get("Stock").trim();
+		this.floatingVolume = Long.parseLong((values.get("Volume").trim()));
 	}
 
 	public long getTimestamp() {

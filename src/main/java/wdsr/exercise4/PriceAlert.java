@@ -2,6 +2,9 @@ package wdsr.exercise4;
 
 import java.io.Serializable;
 import java.math.BigDecimal;
+import java.util.HashMap;
+import java.util.Map;
+
 
 public class PriceAlert implements Serializable {
 	private static final long serialVersionUID = 2634775509893849192L;
@@ -15,6 +18,22 @@ public class PriceAlert implements Serializable {
 		this.stock = stock;
 		this.currentPrice = currentPrice;
 	}
+	
+	public PriceAlert(String text){
+		Map<String,String> values = new HashMap<String,String>();
+		
+		String[] pairs = text.split("\n");
+		for(int i=0;i<pairs.length;i++){
+			String onePair = pairs[i];
+			String[] keyValue = pairs[i].split("=");
+			values.put(keyValue[0],keyValue[1]);
+		}
+		
+		this.timestamp = Long.parseLong(values.get("Timestamp").trim());
+		this.stock = values.get("Stock").trim();
+		this.currentPrice = BigDecimal.valueOf(Long.parseLong(((values.get("Price").trim()))));
+	}
+	
 
 	public long getTimestamp() {
 		return timestamp;
