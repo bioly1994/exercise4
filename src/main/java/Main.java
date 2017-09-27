@@ -35,7 +35,7 @@ public class Main {
 			long startTime = System.currentTimeMillis();
 			
 			for(Integer i=0; i<10000;i++){
-				message.setText("test_"+i.toString());
+				message.setText("test_per_"+i.toString());
 				message.setJMSDeliveryMode(DeliveryMode.PERSISTENT);
 				producer.send(message);
 			}
@@ -45,7 +45,7 @@ public class Main {
 					
 			startTime = System.currentTimeMillis();
 			for(Integer i=0; i<10000;i++){				
-				message.setText("test_"+i.toString());
+				message.setText("test_non_"+i.toString());
 				message.setJMSDeliveryMode(DeliveryMode.NON_PERSISTENT);
 				producer.send(message);
 			}
@@ -56,7 +56,7 @@ public class Main {
 			session.close();
 			connection.close();
 			
-			System.out.println("KONIEC");
+			System.out.println("Koniec");
 			
 		} catch (JMSException e) {
 			e.printStackTrace();

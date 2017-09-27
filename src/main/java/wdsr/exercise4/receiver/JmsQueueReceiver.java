@@ -52,7 +52,6 @@ public class JmsQueueReceiver implements MessageListener {
 	 */
 	public void registerCallback(AlertService alertService) throws JMSException {
 		
-	
 		this.consumer = this.session.createConsumer(this.destination);
 		this.consumer.setMessageListener(this);
 		this.alertService = alertService;

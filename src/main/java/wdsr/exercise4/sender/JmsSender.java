@@ -51,6 +51,7 @@ public class JmsSender {
 		Order order = new Order(orderId,product,price);		
 		this.destination = this.session.createQueue(this.queueName);
 		this.producer = this.session.createProducer(this.destination);		
+		//do wysyłania wiadomości używamy Object message
 		ObjectMessage message = this.session.createObjectMessage();
 		
 		message.setObject(order);
@@ -72,6 +73,7 @@ public class JmsSender {
 		
 		this.destination = this.session.createQueue(this.queueName);
 		this.producer = this.session.createProducer(this.destination);
+		//text wysyłamy TextMessage 
 		TextMessage message = this.session.createTextMessage();
 		
 		message.setText(text);
