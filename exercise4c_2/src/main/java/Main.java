@@ -26,6 +26,7 @@ public class Main {
 			connection.setClientID("1995");
 			connection.start();
 			session = connection.createSession(false, Session.AUTO_ACKNOWLEDGE);
+			
 			topic = session.createTopic("BIOLY.TOPIC");
 			messageConsumer = session.createDurableSubscriber(topic, "bioly");
 			
@@ -35,7 +36,7 @@ public class Main {
 					String text = "";
 					
 					try {
-						text =  ((TextMessage) message).getText();
+						text = ((TextMessage) message).getText();
 						log.info(text);
 					} catch (JMSException e) {
 						// TODO Auto-generated catch block
