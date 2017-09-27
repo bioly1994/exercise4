@@ -14,9 +14,9 @@ public class Main {
 
 	private static Logger log = LoggerFactory.getLogger(Main.class);
 	private static Connection connection;
-	private static Session session;
 	private static MessageProducer messageProducer;
 	private static Destination destination; 
+	private static Session session;
 	
 	public static void main(String[] args) {
 
@@ -24,15 +24,17 @@ public class Main {
 			connection = new ActiveMQConnectionFactory("tcp://localhost:61616").createConnection();
 			connection.start();
 			session = connection.createSession(false, Session.AUTO_ACKNOWLEDGE);
+			
 			destination = session.createTopic("BIOLY.TOPIC");
+			
 			messageProducer = session.createProducer(destination);
 			TextMessage message = session.createTextMessage();
 			
 			
 			long start = System.currentTimeMillis();
 			
-			for(int i=0; i<10000;i++){
-				message.setText("test_"+i);
+			for(int i=0; i<10000; i++){
+				message.setText("Test_Per_"+i);
 				message.setJMSDeliveryMode(DeliveryMode.PERSISTENT);
 				messageProducer.send(message);
 			}
@@ -42,14 +44,14 @@ public class Main {
 			
 			long start1 = System.currentTimeMillis();
 			
-			for(int i=0; i<10000;i++){
-				message.setText("test_"+i);
+			for(int i=0; i<10000; i++){
+				message.setText("Test_Non_"+i);
 				message.setJMSDeliveryMode(DeliveryMode.NON_PERSISTENT);
 				messageProducer.send(message);
 			}
 			
 			long stop2 = System.currentTimeMillis() - start;
-			log.info("non persistent {" + stop2 + "} milliseconds.\n");
+			log.info("Non_Persistent {" + stop2 + "} milliseconds.\n");
 			
 			
 		} catch (JMSException e) {
