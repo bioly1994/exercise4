@@ -26,7 +26,7 @@ public class Main {
 			connection = connectionFactory.createConnection();
 			connection.start();
 			session = connection.createSession(false,Session.AUTO_ACKNOWLEDGE);
-			destination = session.createQueue("BIOLY.QUEUE");
+			destination = session.createQueue("Bioly.QUEUE");
 			messageConsumer = session.createConsumer(destination);
 			
 			messageConsumer.setMessageListener(new MessageListener() {
